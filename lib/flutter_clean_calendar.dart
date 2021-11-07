@@ -422,26 +422,26 @@ class _CalendarState extends State<Calendar> {
                               ),
                             ),
                           ),
-                          Expanded(
-                            flex: 20,
-                            child: Padding(
-                              padding: const EdgeInsets.all(8.0),
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.end,
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                  Text(start,
-                                      style: Theme.of(context)
-                                          .textTheme
-                                          .bodyText1),
-                                  Text(end,
-                                      style: Theme.of(context)
-                                          .textTheme
-                                          .bodyText1),
-                                ],
-                              ),
-                            ),
-                          )
+                          // Expanded(
+                          //   flex: 20,
+                          //   child: Padding(
+                          //     padding: const EdgeInsets.all(8.0),
+                          //     child: Column(
+                          //       crossAxisAlignment: CrossAxisAlignment.end,
+                          //       mainAxisAlignment: MainAxisAlignment.center,
+                          //       children: [
+                          //         Text(start,
+                          //             style: Theme.of(context)
+                          //                 .textTheme
+                          //                 .bodyText1),
+                          //         Text(end,
+                          //             style: Theme.of(context)
+                          //                 .textTheme
+                          //                 .bodyText1),
+                          //       ],
+                          //     ),
+                          //   ),
+                          // )
                         ],
                       ),
                     ),
