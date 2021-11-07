@@ -406,7 +406,7 @@ class _CalendarState extends State<Calendar> {
                             ),
                           ),
                           Expanded(
-                            flex: 75,
+                            flex: 95,
                             child: Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Column(
